@@ -19,7 +19,6 @@ namespace GuessingGameThreeTries
                 int answer = Convert.ToInt32(Console.ReadLine());
                 if (answer == myRandom)
                 {
-                    --counter;
                     Console.WriteLine($"You are right, the answer is {answer}!");
                     break;
                 }
